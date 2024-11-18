@@ -1,0 +1,10 @@
+/* src/app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Remove or adjust any body styles that set a different font */
+body {
+  @apply bg-gray-50;
+  /* Remove @apply font-sans; if it's already set in layout.tsx */
+}
