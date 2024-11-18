@@ -3,7 +3,6 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { ThemeProvider } from "@/components/theme-provider"
-import { MessageSquare, Settings, Send } from 'lucide-react';
 
 // Importing the Inter font with desired weights
 const inter = Inter({
