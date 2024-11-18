@@ -3,10 +3,8 @@
 
 import { useEffect, useRef, useState } from 'react';
 import clsx from 'clsx';
-import { Smile, Plus, Send } from 'lucide-react';
 import ChatWindowHeader from './ChatWindowHeader';
 import ChatWindowFooter from './ChatWindowFooter';
-import IconButton from './IconButton';
 
 interface Message {
   id: number;
