@@ -3,7 +3,6 @@
 
 import * as Dialog from '@radix-ui/react-dialog';
 import { Settings, X } from 'lucide-react';
-import { cn } from '../lib/utils'; // Utility for clsx (create if not exists)
 import { FC } from 'react';
 
 const SettingsModal: FC = () => {
