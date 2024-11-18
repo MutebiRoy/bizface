@@ -6,7 +6,6 @@ import clsx from 'clsx';
 import { UserRound, Search } from 'lucide-react';
 import ChatListHeader from './ChatListHeader';
 import ChatListFooter from './ChatListFooter';
-import IconButton from './IconButton';
 
 interface ChatItem {
   id: number;
