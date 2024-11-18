@@ -29,14 +29,14 @@ const Home: React.FC = () => {
     const mockMessages: Message[] = [
       { id: 1, sender: chat.name, content: 'Hello!', timestamp: '10:00 AM' },
       { id: 2, sender: 'You', content: 'Hi there!', timestamp: '10:01 AM' },
-      { id: 1, sender: chat.name, content: 'Hello!', timestamp: '10:00 AM' },
-      { id: 2, sender: 'You', content: 'Hi there!', timestamp: '10:01 AM' },
-      { id: 1, sender: chat.name, content: 'Hello!', timestamp: '10:00 AM' },
-      { id: 2, sender: 'You', content: 'Hi there!', timestamp: '10:01 AM' },
-      { id: 1, sender: chat.name, content: 'Hello!', timestamp: '10:00 AM' },
-      { id: 2, sender: 'You', content: 'Hi there!', timestamp: '10:01 AM' },
-      { id: 1, sender: chat.name, content: 'Hello!', timestamp: '10:00 AM' },
-      { id: 2, sender: 'You', content: 'Hi there!', timestamp: '10:01 AM' },
+      { id: 3, sender: chat.name, content: 'Hello!', timestamp: '10:00 AM' },
+      { id: 4, sender: 'You', content: 'Hi there!', timestamp: '10:01 AM' },
+      { id: 5, sender: chat.name, content: 'Hello!', timestamp: '10:00 AM' },
+      { id: 6, sender: 'You', content: 'Hi there!', timestamp: '10:01 AM' },
+      { id: 7, sender: chat.name, content: 'Hello!', timestamp: '10:00 AM' },
+      { id: 8, sender: 'You', content: 'Hi there!', timestamp: '10:01 AM' },
+      { id: 9, sender: chat.name, content: 'Hello!', timestamp: '10:00 AM' },
+      { id: 10, sender: 'You', content: 'Hi there!', timestamp: '10:01 AM' },
     ];
     setMessages(mockMessages);
   };
