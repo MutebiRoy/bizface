@@ -11,7 +11,7 @@ interface ChatListFooterProps {
 
 const ChatListFooter: React.FC<ChatListFooterProps> = ({ onHome, onEditProfile }) => {
   return (
-    <footer className="p-4 bg-gray-100 flex space-x-4">
+    <footer className="p-4 bg-gray-100 flex space-x-4 sticky bottom-0 z-10">
       {/* Home Button */}
       <IconButton
         icon={<House className="w-5 h-5 text-primary" />}
