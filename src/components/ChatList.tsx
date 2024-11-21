@@ -80,7 +80,7 @@ const ChatList: React.FC<ChatListProps> = ({
       </div>
 
       {/* Chat List */}
-      <div className="flex-1 overflow-y-auto">
+      <div className="flex-grow flex-shrink min-h-0 overflow-y-auto">
         {filteredChats.length > 0 ? (
           filteredChats.map((chat) => (
             <div
