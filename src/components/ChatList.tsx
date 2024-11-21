@@ -101,10 +101,11 @@ const ChatList: React.FC<ChatListProps> = ({
         ) : (
           <p className="text-center text-gray-500">No chats found.</p>
         )}
+        {/* Footer */}
+      <ChatListFooter onHome={onHome} onEditProfile={onEditProfile} />
       </div>
 
-      {/* Footer */}
-      <ChatListFooter onHome={onHome} onEditProfile={onEditProfile} />
+      
     </div>
   );
 };
